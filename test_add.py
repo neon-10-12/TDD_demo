@@ -5,3 +5,7 @@ def test_add_two_positive_numbers():
 def test_add_two_negative_nubber():
     from calculator import add
     assert add(-1, -2) == -3
+
+def test_add_postive_and_negative_number():
+    from calculator import add
+    assert add(1, -2) == -1
